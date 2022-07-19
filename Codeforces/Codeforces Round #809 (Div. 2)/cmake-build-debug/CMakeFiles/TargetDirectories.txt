@@ -1,0 +1,3 @@
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/Test.cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/Test.cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/Test.cpp/cmake-build-debug/CMakeFiles/Test_cpp.dir
