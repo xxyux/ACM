@@ -143,32 +143,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_23.dir/build.make CMakeFiles/7_23.dir/build
 .PHONY : 7_23/fast
 
-j.o: j.cpp.o
+d.o: d.cpp.o
 
-.PHONY : j.o
+.PHONY : d.o
 
 # target to build an object file
-j.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_23.dir/build.make CMakeFiles/7_23.dir/j.cpp.o
-.PHONY : j.cpp.o
+d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_23.dir/build.make CMakeFiles/7_23.dir/d.cpp.o
+.PHONY : d.cpp.o
 
-j.i: j.cpp.i
+d.i: d.cpp.i
 
-.PHONY : j.i
+.PHONY : d.i
 
 # target to preprocess a source file
-j.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_23.dir/build.make CMakeFiles/7_23.dir/j.cpp.i
-.PHONY : j.cpp.i
+d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_23.dir/build.make CMakeFiles/7_23.dir/d.cpp.i
+.PHONY : d.cpp.i
 
-j.s: j.cpp.s
+d.s: d.cpp.s
 
-.PHONY : j.s
+.PHONY : d.s
 
 # target to generate assembly for a file
-j.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_23.dir/build.make CMakeFiles/7_23.dir/j.cpp.s
-.PHONY : j.cpp.s
+d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_23.dir/build.make CMakeFiles/7_23.dir/d.cpp.s
+.PHONY : d.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 7_23"
-	@echo "... j.o"
-	@echo "... j.i"
-	@echo "... j.s"
+	@echo "... d.o"
+	@echo "... d.i"
+	@echo "... d.s"
 .PHONY : help
 
 

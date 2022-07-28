@@ -3,4 +3,4 @@ project(7_23)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(7_23 j.cpp)
+add_executable(7_23 d.cpp)

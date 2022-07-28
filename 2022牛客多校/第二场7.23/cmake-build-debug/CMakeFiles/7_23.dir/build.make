@@ -77,27 +77,27 @@ include CMakeFiles/7_23.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/7_23.dir/flags.make
 
-CMakeFiles/7_23.dir/j.cpp.o: CMakeFiles/7_23.dir/flags.make
-CMakeFiles/7_23.dir/j.cpp.o: ../j.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/7_23.dir/j.cpp.o"
-	/usr/local/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/7_23.dir/j.cpp.o -c /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/j.cpp
+CMakeFiles/7_23.dir/d.cpp.o: CMakeFiles/7_23.dir/flags.make
+CMakeFiles/7_23.dir/d.cpp.o: ../d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/7_23.dir/d.cpp.o"
+	/usr/local/bin/g++-11  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/7_23.dir/d.cpp.o -c /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/d.cpp
 
-CMakeFiles/7_23.dir/j.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7_23.dir/j.cpp.i"
-	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/j.cpp > CMakeFiles/7_23.dir/j.cpp.i
+CMakeFiles/7_23.dir/d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7_23.dir/d.cpp.i"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/d.cpp > CMakeFiles/7_23.dir/d.cpp.i
 
-CMakeFiles/7_23.dir/j.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7_23.dir/j.cpp.s"
-	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/j.cpp -o CMakeFiles/7_23.dir/j.cpp.s
+CMakeFiles/7_23.dir/d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7_23.dir/d.cpp.s"
+	/usr/local/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/d.cpp -o CMakeFiles/7_23.dir/d.cpp.s
 
 # Object files for target 7_23
 7_23_OBJECTS = \
-"CMakeFiles/7_23.dir/j.cpp.o"
+"CMakeFiles/7_23.dir/d.cpp.o"
 
 # External object files for target 7_23
 7_23_EXTERNAL_OBJECTS =
 
-7_23: CMakeFiles/7_23.dir/j.cpp.o
+7_23: CMakeFiles/7_23.dir/d.cpp.o
 7_23: CMakeFiles/7_23.dir/build.make
 7_23: CMakeFiles/7_23.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 7_23"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/j.cpp" "/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/cmake-build-debug/CMakeFiles/7_23.dir/j.cpp.o"
+  "/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/d.cpp" "/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第二场7.23/cmake-build-debug/CMakeFiles/7_23.dir/d.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
