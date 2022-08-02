@@ -30,19 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be51532d-0333-4084-b630-ad9fbd6140d1" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/7_23" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/7_23" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/7_23.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/7_23.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/7_23.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +70,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -103,7 +86,8 @@
       <updated>1658977999192</updated>
       <workItem from="1658978000407" duration="32000" />
       <workItem from="1658978058716" duration="6504000" />
-      <workItem from="1659021064800" duration="3183000" />
+      <workItem from="1659021064800" duration="3624000" />
+      <workItem from="1659408515692" duration="9000" />
     </task>
     <servers />
   </component>
@@ -127,22 +111,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="141" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1658978567895" />
-    <state width="1388" height="202" key="GridCell.Tab.0.bottom" timestamp="1659023940041">
+    <state width="1388" height="202" key="GridCell.Tab.0.bottom" timestamp="1659024848638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1659023940041" />
-    <state width="1388" height="202" key="GridCell.Tab.0.center" timestamp="1659023940039">
+    <state width="1388" height="202" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1659024848638" />
+    <state width="1388" height="202" key="GridCell.Tab.0.center" timestamp="1659024848637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1659023940039" />
-    <state width="1388" height="202" key="GridCell.Tab.0.left" timestamp="1659023940038">
+    <state width="1388" height="202" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1659024848637" />
+    <state width="1388" height="202" key="GridCell.Tab.0.left" timestamp="1659024848636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1659023940038" />
-    <state width="1388" height="202" key="GridCell.Tab.0.right" timestamp="1659023940040">
+    <state width="1388" height="202" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1659024848636" />
+    <state width="1388" height="202" key="GridCell.Tab.0.right" timestamp="1659024848638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1659023940040" />
+    <state width="1388" height="202" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1659024848638" />
     <state width="1388" height="277" key="GridCell.Tab.1.bottom" timestamp="1659003947045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -159,10 +143,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1388" height="277" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1659003947045" />
-    <state x="0" y="0" width="1201" height="900" key="SettingsEditor" timestamp="1658978065922">
+    <state x="0" y="0" width="1201" height="900" key="SettingsEditor" timestamp="1659408522298">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" width="1201" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1658978065922" />
+    <state x="0" y="0" width="1201" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1659408522298" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
