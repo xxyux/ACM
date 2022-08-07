@@ -170,6 +170,32 @@ g/fast:
 .PHONY : g/fast
 
 #=============================================================================
+# Target rules for targets named m
+
+# Build rule for target.
+m : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 m
+.PHONY : m
+
+# fast build rule for target.
+m/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/build
+.PHONY : m/fast
+
+#=============================================================================
+# Target rules for targets named a
+
+# Build rule for target.
+a : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a
+.PHONY : a
+
+# fast build rule for target.
+a/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/build
+.PHONY : a/fast
+
+#=============================================================================
 # Target rules for targets named 8_6
 
 # Build rule for target.
@@ -181,6 +207,33 @@ g/fast:
 8_6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_6.dir/build.make CMakeFiles/8_6.dir/build
 .PHONY : 8_6/fast
+
+A.o: A.cpp.o
+
+.PHONY : A.o
+
+# target to build an object file
+A.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/A.cpp.o
+.PHONY : A.cpp.o
+
+A.i: A.cpp.i
+
+.PHONY : A.i
+
+# target to preprocess a source file
+A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/A.cpp.i
+.PHONY : A.cpp.i
+
+A.s: A.cpp.s
+
+.PHONY : A.s
+
+# target to generate assembly for a file
+A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/A.cpp.s
+.PHONY : A.cpp.s
 
 B.o: B.cpp.o
 
@@ -263,6 +316,33 @@ J.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/j.dir/build.make CMakeFiles/j.dir/J.cpp.s
 .PHONY : J.cpp.s
 
+M.o: M.cpp.o
+
+.PHONY : M.o
+
+# target to build an object file
+M.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/M.cpp.o
+.PHONY : M.cpp.o
+
+M.i: M.cpp.i
+
+.PHONY : M.i
+
+# target to preprocess a source file
+M.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/M.cpp.i
+.PHONY : M.cpp.i
+
+M.s: M.cpp.s
+
+.PHONY : M.s
+
+# target to generate assembly for a file
+M.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/M.cpp.s
+.PHONY : M.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -299,9 +379,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 8_6"
+	@echo "... a"
 	@echo "... b"
 	@echo "... g"
 	@echo "... j"
+	@echo "... m"
+	@echo "... A.o"
+	@echo "... A.i"
+	@echo "... A.s"
 	@echo "... B.o"
 	@echo "... B.i"
 	@echo "... B.s"
@@ -311,6 +396,9 @@ help:
 	@echo "... J.o"
 	@echo "... J.i"
 	@echo "... J.s"
+	@echo "... M.o"
+	@echo "... M.i"
+	@echo "... M.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

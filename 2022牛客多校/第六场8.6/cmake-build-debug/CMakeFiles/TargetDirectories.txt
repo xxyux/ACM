@@ -3,4 +3,6 @@
 /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles/j.dir
 /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles/b.dir
 /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles/g.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles/m.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles/a.dir
 /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles/8_6.dir

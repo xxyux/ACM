@@ -10,3 +10,7 @@ add_executable(g G.cpp)
 add_executable(b B.cpp)
 
 add_executable(j J.cpp)
+
+add_executable(m M.cpp)
+
+add_executable(a A.cpp)

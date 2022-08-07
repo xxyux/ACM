@@ -76,6 +76,8 @@ CMAKE_BINARY_DIR = /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六�
 all: CMakeFiles/j.dir/all
 all: CMakeFiles/b.dir/all
 all: CMakeFiles/g.dir/all
+all: CMakeFiles/m.dir/all
+all: CMakeFiles/a.dir/all
 all: CMakeFiles/8_6.dir/all
 
 .PHONY : all
@@ -89,6 +91,8 @@ preinstall:
 clean: CMakeFiles/j.dir/clean
 clean: CMakeFiles/b.dir/clean
 clean: CMakeFiles/g.dir/clean
+clean: CMakeFiles/m.dir/clean
+clean: CMakeFiles/a.dir/clean
 clean: CMakeFiles/8_6.dir/clean
 
 .PHONY : clean
@@ -100,7 +104,7 @@ clean: CMakeFiles/8_6.dir/clean
 CMakeFiles/j.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/j.dir/build.make CMakeFiles/j.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/j.dir/build.make CMakeFiles/j.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target j"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target j"
 .PHONY : CMakeFiles/j.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,7 +131,7 @@ CMakeFiles/j.dir/clean:
 CMakeFiles/b.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/b.dir/build.make CMakeFiles/b.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/b.dir/build.make CMakeFiles/b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target b"
 .PHONY : CMakeFiles/b.dir/all
 
 # Build rule for subdir invocation for target.
@@ -154,7 +158,7 @@ CMakeFiles/b.dir/clean:
 CMakeFiles/g.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target g"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target g"
 .PHONY : CMakeFiles/g.dir/all
 
 # Build rule for subdir invocation for target.
@@ -173,6 +177,60 @@ g : CMakeFiles/g.dir/rule
 CMakeFiles/g.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/clean
 .PHONY : CMakeFiles/g.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/m.dir
+
+# All Build rule for target.
+CMakeFiles/m.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target m"
+.PHONY : CMakeFiles/m.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/m.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/m.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/m.dir/rule
+
+# Convenience name for target.
+m : CMakeFiles/m.dir/rule
+
+.PHONY : m
+
+# clean rule for target.
+CMakeFiles/m.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/clean
+.PHONY : CMakeFiles/m.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/a.dir
+
+# All Build rule for target.
+CMakeFiles/a.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target a"
+.PHONY : CMakeFiles/a.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第六场8.6/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/a.dir/rule
+
+# Convenience name for target.
+a : CMakeFiles/a.dir/rule
+
+.PHONY : a
+
+# clean rule for target.
+CMakeFiles/a.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.dir/build.make CMakeFiles/a.dir/clean
+.PHONY : CMakeFiles/a.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/8_6.dir
