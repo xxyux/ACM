@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="8_17"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="j">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/j" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 j"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="j/fast">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/j" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 j/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/h" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 h"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h/fast">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/h" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 h/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/m" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 m"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m/fast">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/m" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 m/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 e"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e/fast">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 e/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_17">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/8_17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_17"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_17/fast">
+				<Option output="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/8_17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include"/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_17/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/E.cpp">
+			<Option target="e"/>
+		</Unit>
+		<Unit filename="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/H.cpp">
+			<Option target="h"/>
+		</Unit>
+		<Unit filename="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/J.cpp">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/M.cpp">
+			<Option target="m"/>
+		</Unit>
+		<Unit filename="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/main.cpp">
+			<Option target="8_17"/>
+		</Unit>
+		<Unit filename="/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

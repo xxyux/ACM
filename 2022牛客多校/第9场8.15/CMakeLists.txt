@@ -8,3 +8,9 @@ add_executable(98_15 main.cpp)
 add_executable(a a.cpp)
 
 add_executable(i i.cpp)
+
+add_executable(b B.cpp)
+
+add_executable(e E.cpp)
+
+add_executable(g G.cpp)

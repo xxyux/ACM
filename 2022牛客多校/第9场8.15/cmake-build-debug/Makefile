@@ -131,6 +131,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named g
+
+# Build rule for target.
+g : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 g
+.PHONY : g
+
+# fast build rule for target.
+g/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/build
+.PHONY : g/fast
+
+#=============================================================================
+# Target rules for targets named b
+
+# Build rule for target.
+b : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 b
+.PHONY : b
+
+# fast build rule for target.
+b/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/b.dir/build.make CMakeFiles/b.dir/build
+.PHONY : b/fast
+
+#=============================================================================
+# Target rules for targets named e
+
+# Build rule for target.
+e : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e
+.PHONY : e
+
+# fast build rule for target.
+e/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e.dir/build.make CMakeFiles/e.dir/build
+.PHONY : e/fast
+
+#=============================================================================
 # Target rules for targets named i
 
 # Build rule for target.
@@ -168,6 +207,87 @@ a/fast:
 98_15/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/98_15.dir/build.make CMakeFiles/98_15.dir/build
 .PHONY : 98_15/fast
+
+B.o: B.cpp.o
+
+.PHONY : B.o
+
+# target to build an object file
+B.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/b.dir/build.make CMakeFiles/b.dir/B.cpp.o
+.PHONY : B.cpp.o
+
+B.i: B.cpp.i
+
+.PHONY : B.i
+
+# target to preprocess a source file
+B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/b.dir/build.make CMakeFiles/b.dir/B.cpp.i
+.PHONY : B.cpp.i
+
+B.s: B.cpp.s
+
+.PHONY : B.s
+
+# target to generate assembly for a file
+B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/b.dir/build.make CMakeFiles/b.dir/B.cpp.s
+.PHONY : B.cpp.s
+
+E.o: E.cpp.o
+
+.PHONY : E.o
+
+# target to build an object file
+E.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e.dir/build.make CMakeFiles/e.dir/E.cpp.o
+.PHONY : E.cpp.o
+
+E.i: E.cpp.i
+
+.PHONY : E.i
+
+# target to preprocess a source file
+E.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e.dir/build.make CMakeFiles/e.dir/E.cpp.i
+.PHONY : E.cpp.i
+
+E.s: E.cpp.s
+
+.PHONY : E.s
+
+# target to generate assembly for a file
+E.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e.dir/build.make CMakeFiles/e.dir/E.cpp.s
+.PHONY : E.cpp.s
+
+G.o: G.cpp.o
+
+.PHONY : G.o
+
+# target to build an object file
+G.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/G.cpp.o
+.PHONY : G.cpp.o
+
+G.i: G.cpp.i
+
+.PHONY : G.i
+
+# target to preprocess a source file
+G.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/G.cpp.i
+.PHONY : G.cpp.i
+
+G.s: G.cpp.s
+
+.PHONY : G.s
+
+# target to generate assembly for a file
+G.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/G.cpp.s
+.PHONY : G.cpp.s
 
 a.o: a.cpp.o
 
@@ -260,7 +380,19 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 98_15"
 	@echo "... a"
+	@echo "... b"
+	@echo "... e"
+	@echo "... g"
 	@echo "... i"
+	@echo "... B.o"
+	@echo "... B.i"
+	@echo "... B.s"
+	@echo "... E.o"
+	@echo "... E.i"
+	@echo "... E.s"
+	@echo "... G.o"
+	@echo "... G.i"
+	@echo "... G.s"
 	@echo "... a.o"
 	@echo "... a.i"
 	@echo "... a.s"

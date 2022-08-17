@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/M.cpp
+bits/stdc++.h
+/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/8.17加赛/bits/stdc++.h
+
