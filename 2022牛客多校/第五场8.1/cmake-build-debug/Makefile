@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named g
+
+# Build rule for target.
+g : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 g
+.PHONY : g
+
+# fast build rule for target.
+g/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/build
+.PHONY : g/fast
+
+#=============================================================================
 # Target rules for targets named 8_1
 
 # Build rule for target.
@@ -142,6 +155,33 @@ depend:
 8_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1.dir/build.make CMakeFiles/8_1.dir/build
 .PHONY : 8_1/fast
+
+G.o: G.cpp.o
+
+.PHONY : G.o
+
+# target to build an object file
+G.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/G.cpp.o
+.PHONY : G.cpp.o
+
+G.i: G.cpp.i
+
+.PHONY : G.i
+
+# target to preprocess a source file
+G.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/G.cpp.i
+.PHONY : G.cpp.i
+
+G.s: G.cpp.s
+
+.PHONY : G.s
+
+# target to generate assembly for a file
+G.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/g.dir/build.make CMakeFiles/g.dir/G.cpp.s
+.PHONY : G.cpp.s
 
 main.o: main.cpp.o
 
@@ -179,6 +219,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 8_1"
+	@echo "... g"
+	@echo "... G.o"
+	@echo "... G.i"
+	@echo "... G.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

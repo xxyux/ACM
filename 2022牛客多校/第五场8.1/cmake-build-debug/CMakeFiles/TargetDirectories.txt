@@ -1,3 +1,4 @@
+/Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第五场8.1/cmake-build-debug/CMakeFiles/g.dir
 /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第五场8.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第五场8.1/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/xiangruiyu/Desktop/ACM/刷题/2022牛客多校/第五场8.1/cmake-build-debug/CMakeFiles/8_1.dir
