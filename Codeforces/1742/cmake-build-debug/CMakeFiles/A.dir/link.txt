@@ -1,0 +1,1 @@
+/usr/local/bin/g++-11  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/A.dir/A.cpp.o  -o A 

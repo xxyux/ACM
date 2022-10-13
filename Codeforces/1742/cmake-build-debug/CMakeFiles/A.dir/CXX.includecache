@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/A.cpp
+bits/stdc++.h
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/bits/stdc++.h
+

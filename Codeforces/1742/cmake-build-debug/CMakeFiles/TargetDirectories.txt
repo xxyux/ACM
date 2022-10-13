@@ -1,0 +1,10 @@
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/F.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/A.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/D.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/C.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/B.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/G.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/E.dir
+/Users/xiangruiyu/Desktop/ACM/刷题/Codeforces/1742/cmake-build-debug/CMakeFiles/1742.dir
